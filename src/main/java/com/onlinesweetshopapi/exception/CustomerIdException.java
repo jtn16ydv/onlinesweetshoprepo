@@ -5,19 +5,22 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ResponseStatus(HttpStatus.BAD_REQUEST)
 public class CustomerIdException extends RuntimeException {
-	 /**
-	 * 
-	 */
+
 	private static final long serialVersionUID = 1L;
 
-	public CustomerIdException()
-	 {
-		 super();
-	 }
-	 
-	 public CustomerIdException(String errMsg) {
-		 super(errMsg);
-		 
-	 }
+	/**
+	 * CustomerIdException Constructor
+	 */
+	public CustomerIdException() {
+		super();
+	}
+
+	/**
+	 * CustomerIdException Message Constructor
+	 */
+	public CustomerIdException(String errMsg) {
+		super(errMsg);
+
+	}
 
 }

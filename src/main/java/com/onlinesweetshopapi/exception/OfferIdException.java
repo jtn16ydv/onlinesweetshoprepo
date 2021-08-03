@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 @ResponseStatus(HttpStatus.BAD_REQUEST)
 public class OfferIdException extends RuntimeException {
 	
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 1L;
+	
+	
 	/**
 	 * Create OfferIdException object without error message
 	 */

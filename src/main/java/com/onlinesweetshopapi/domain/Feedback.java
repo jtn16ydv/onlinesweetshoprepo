@@ -1,6 +1,5 @@
 package com.onlinesweetshopapi.domain;
 
-
 import javax.persistence.Entity;
 
 import javax.persistence.GeneratedValue;
@@ -14,22 +13,45 @@ public class Feedback {
 	private Long id;
 	private int rating;
 
-	public Long getId() {
-		return id;
-	}
-
-	public void setId(Long id) {
-		this.id = id;
-	}
-
+	/**
+	 * Feedback Constructor
+	 */
 	public Feedback() {
 		super();
 	}
 
+	/*
+	 * Gets id
+	 * 
+	 * @return id Long
+	 */
+	public Long getId() {
+		return id;
+	}
+
+	/*
+	 * Sets id
+	 * 
+	 * @param id Long
+	 */
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	/*
+	 * Gets rating
+	 * 
+	 * @return rating
+	 */
 	public int getRating() {
 		return rating;
 	}
 
+	/*
+	 * Sets rating
+	 * 
+	 * @return rating
+	 */
 	public void setRating(int rating) {
 		this.rating = rating;
 	}

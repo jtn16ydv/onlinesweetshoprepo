@@ -5,19 +5,22 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ResponseStatus(HttpStatus.BAD_REQUEST)
 public class AdminIDException extends RuntimeException {
-	 /**
-	 * 
-	 */
+
 	private static final long serialVersionUID = 1L;
 
-	public AdminIDException()
-	 {
-		 super();
-	 }
-	 
-	 public AdminIDException(String errMsg) {
-		 super(errMsg);
-		 
-	 }
+	/**
+	 * AdminIdException Constructor
+	 */
+	public AdminIDException() {
+		super();
+	}
+
+	/**
+	 * AdminIdException parameterized Constructor
+	 */
+	public AdminIDException(String errMsg) {
+		super(errMsg);
+
+	}
 
 }

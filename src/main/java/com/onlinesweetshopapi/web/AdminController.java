@@ -53,7 +53,7 @@ public class AdminController {
 		return new ResponseEntity<Admin>(admin, HttpStatus.OK);
 	}
 
-	@PatchMapping("/{userId}/{isLoggedIn}")
+	@PatchMapping("/{userId}/{isloggedIn}")
 	public ResponseEntity<?> updateAdmin(@Valid @PathVariable String userId,@PathVariable int isLoggedIn) {
 		adminService.updateByUserId(userId, isLoggedIn);
 		Admin admin = adminService.findAdminByUserId(userId);
@@ -62,6 +62,5 @@ public class AdminController {
 			throw new AdminIDException("AdminId "+userId.toUpperCase() +" does not exist");
 		}
 		return new ResponseEntity<Admin>(admin, HttpStatus.OK);
-		
 	}
 }

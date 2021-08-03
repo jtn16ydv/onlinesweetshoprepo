@@ -14,98 +14,176 @@ import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-
-
 @Entity
 public class Event {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long Id;
-	@NotBlank(message="customerIdentifier is required")
-	@Size(min = 4, max = 6 , message ="Size must be between 4 to 6 characters")
+	@NotBlank(message = "customerIdentifier is required")
+	@Size(min = 4, max = 6, message = "Size must be between 4 to 6 characters")
 	private String customerIdentifier;
-	@NotBlank(message="eventName is required")
+	@NotBlank(message = "eventName is required")
 	private String eventName;
-	@NotBlank(message="description is required")
+	@NotBlank(message = "description is required")
 	private String description;
-	@NotBlank(message="start_date is required in format YYYY-MM-DD")
 	private Date start_date;
-	@NotBlank(message="end_date is required in format YYYY-MM-DD")
 	private Date end_date;
-	@NotBlank(message="event status is required")
+	@NotBlank(message = "event status is required")
 	private String event_status;
 	@OneToOne(fetch = FetchType.LAZY)
-	@JoinColumn(name="customer_id",nullable = false)
+	@JoinColumn(name = "customer_id", nullable = false)
 	@JsonIgnore
 	private Customer customer;
-	
+
+	/**
+	 * Event Constructor
+	 */
+	public Event() {
+		super();
+	}
+
+	/**
+	 * Gets Customer
+	 * 
+	 * @return customer customer
+	 */
 	public Customer getCustomer() {
 		return customer;
 	}
+
+	/**
+	 * Sets Customer
+	 * 
+	 * @param customer
+	 */
 	public void setCustomer(Customer customer) {
 		this.customer = customer;
 	}
-	
 
-	public Event(){
-		super();
-	}
-	
-	
+	/**
+	 * Gets EventStatus
+	 * 
+	 * @return eventStatus
+	 */
 	public String getEvent_status() {
 		return event_status;
 	}
+
+	/**
+	 * Sets EventStatus
+	 * 
+	 * @param eventStatus
+	 */
 	public void setEvent_status(String event_status) {
 		this.event_status = event_status;
 	}
-	
+
+	/**
+	 * Gets EventName
+	 * 
+	 * @return eventName
+	 */
 	public String getEventName() {
 		return eventName;
 	}
 
+	/**
+	 * Sets EventName
+	 * 
+	 * @param eventName
+	 */
 	public void setEventName(String eventName) {
 		this.eventName = eventName;
 	}
 
+	/**
+	 * Gets id
+	 * 
+	 * @return id
+	 */
 	public long getId() {
 		return Id;
 	}
 
+	/**
+	 * Gets id
+	 * 
+	 * @param id
+	 */
 	public void setId(long id) {
 		Id = id;
 	}
-	
+
+	/**
+	 * Gets Description
+	 * 
+	 * @return description String
+	 */
 	public String getDescription() {
 		return description;
 	}
 
+	/**
+	 * Sets Description
+	 * 
+	 * @param description String
+	 */
 	public void setDescription(String description) {
 		this.description = description;
 	}
 
+	/**
+	 * Gets startDate
+	 * 
+	 * @return startDate
+	 */
 	public Date getStart_date() {
 		return start_date;
 	}
 
+	/**
+	 * Sets startDate
+	 * 
+	 * @param startDate
+	 */
 	public void setStart_date(Date start_date) {
 		this.start_date = start_date;
 	}
 
+	/**
+	 * Gets endDate
+	 * 
+	 * @return endDate
+	 */
 	public Date getEnd_date() {
 		return end_date;
 	}
 
+	/**
+	 * Sets endDate
+	 * 
+	 * @param endDate
+	 */
 	public void setEnd_date(Date end_date) {
 		this.end_date = end_date;
 	}
+
+	/**
+	 * Gets customerIdentifier
+	 * 
+	 * @return customerIdentifier
+	 */
 	public String getCustomerIdentifier() {
 		return customerIdentifier;
 	}
+
+	/**
+	 * Sets customerIdentifier
+	 * 
+	 * @param customerIdentifier
+	 */
 	public void setCustomerIdentifier(String customerIdentifier) {
 		this.customerIdentifier = customerIdentifier;
 	}
-	
-	
-	
-}
 
+}

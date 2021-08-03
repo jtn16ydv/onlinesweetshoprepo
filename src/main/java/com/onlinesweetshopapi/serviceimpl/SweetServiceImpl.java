@@ -47,7 +47,8 @@ public class SweetServiceImpl implements SweetService {
 		}
 		catch(Exception e)
 		{
-			throw new SweetIDException("Sweet"+ sweet.getSweetIdentifier() + " cannot be entered.");
+			System.out.println(e.getMessage());
+			throw new SweetIDException("Sweet "+ sweet.getSweetIdentifier() + " cannot be entered.");
 			
 		}
 	}

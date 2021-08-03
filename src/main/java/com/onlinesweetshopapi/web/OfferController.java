@@ -51,7 +51,7 @@ public class OfferController {
 		if(offer==null)
 		{
 			logger.error("Error in fetching offer");
-			throw new AdminIDException("AdminId "+offerId.toUpperCase() +" does not exist");
+			throw new AdminIDException("Offer "+ offerId.toUpperCase() +" does not exist");
 		}
 		return new ResponseEntity<Offer>(offer, HttpStatus.OK);
 	}
