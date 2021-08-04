@@ -9,7 +9,6 @@ public class OnlinesweetshopapiApplicationTests {
 
 	@Test
 	public void addCategory() throws Exception {
-
 		
 	}
 

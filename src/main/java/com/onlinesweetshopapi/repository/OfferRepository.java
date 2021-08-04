@@ -8,5 +8,11 @@ import com.onlinesweetshopapi.domain.Offer;
 @Repository
 public interface OfferRepository extends JpaRepository<Offer, Long> {
 
+	/**
+	 * find offer by offer id
+	 * 
+	 * @param offerId
+	 * @return offer
+	 */
 	Offer findByOfferId(String offerId);
 }

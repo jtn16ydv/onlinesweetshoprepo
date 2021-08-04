@@ -6,7 +6,14 @@ import org.springframework.stereotype.Repository;
 import com.onlinesweetshopapi.domain.Feedback;
 
 @Repository
-public interface FeedbackRepository extends JpaRepository<Feedback, Long>{
-	Feedback findById(long id); 
-	
+public interface FeedbackRepository extends JpaRepository<Feedback, Long> {
+
+	/**
+	 * find feedback by id
+	 * 
+	 * @param Id
+	 * @return feedback
+	 */
+	Feedback findById(long id);
+
 }

@@ -1,0 +1,549 @@
+2021-08-03 05:32:29.263  WARN 8008 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h58m13s340ms824µs100ns).
+2021-08-03 07:33:14.949  INFO 6352 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : Starting OnlinesweetshopapiApplication using Java 15.0.2 on DESKTOP-JUUOILO with PID 6352 (C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi\target\classes started by Dell in C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi)
+2021-08-03 07:33:14.956  INFO 6352 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : No active profile set, falling back to default profiles: default
+2021-08-03 07:33:15.156  INFO 6352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-03 07:33:15.159  INFO 6352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-03 07:33:17.789  INFO 6352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-03 07:33:18.046  INFO 6352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 208 ms. Found 8 JPA repository interfaces.
+2021-08-03 07:33:20.481  INFO 6352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-03 07:33:20.522  INFO 6352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-03 07:33:20.523  INFO 6352 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-03 07:33:20.792  INFO 6352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-03 07:33:20.794  INFO 6352 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5633 ms
+2021-08-03 07:33:20.930  INFO 6352 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-03 07:33:21.406  INFO 6352 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-03 07:33:21.418  INFO 6352 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5433/jpademodb'
+2021-08-03 07:33:22.688  INFO 6352 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-03 07:33:22.905  INFO 6352 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-03 07:33:23.445  INFO 6352 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-03 07:33:23.870  INFO 6352 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-08-03 07:33:26.268  INFO 6352 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-03 07:33:26.281  INFO 6352 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-03 07:33:27.660  WARN 6352 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-03 07:33:27.973  INFO 6352 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-03 07:33:28.199  INFO 6352 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-03 07:33:28.545  INFO 6352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-03 07:33:28.547  INFO 6352 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-08-03 07:33:28.586  INFO 6352 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-08-03 07:33:28.660  INFO 6352 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-08-03 07:33:29.143  INFO 6352 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getSweetsUsingGET_1
+2021-08-03 07:33:29.178  INFO 6352 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : Started OnlinesweetshopapiApplication in 15.044 seconds (JVM running for 16.154)
+2021-08-03 07:39:04.279  INFO 6352 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-03 07:39:04.280  INFO 6352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-03 07:39:04.284  INFO 6352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-08-03 07:40:31.584  WARN 6352 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (PushbackInputStream); line: 8, column: 2]]
+2021-08-03 07:41:21.241  INFO 6352 --- [http-nio-8080-exec-4] c.o.web.CustomerController               : Customer added/updated sucessfully
+2021-08-03 07:43:23.807  WARN 6352 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.onlinesweetshopapi.domain.Event> com.onlinesweetshopapi.web.EventController.createEvent(com.onlinesweetshopapi.domain.Event) with 2 errors: [Field error in object 'event' on field 'event_status': rejected value [null]; codes [NotBlank.event.event_status,NotBlank.event_status,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [event.event_status,event_status]; arguments []; default message [event_status]]; default message [event status is required]] [Field error in object 'event' on field 'description': rejected value [null]; codes [NotBlank.event.description,NotBlank.description,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [event.description,description]; arguments []; default message [description]]; default message [description is required]] ]
+2021-08-03 07:43:31.392  WARN 6352 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.onlinesweetshopapi.domain.Event> com.onlinesweetshopapi.web.EventController.createEvent(com.onlinesweetshopapi.domain.Event) with 2 errors: [Field error in object 'event' on field 'event_status': rejected value [null]; codes [NotBlank.event.event_status,NotBlank.event_status,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [event.event_status,event_status]; arguments []; default message [event_status]]; default message [event status is required]] [Field error in object 'event' on field 'description': rejected value [null]; codes [NotBlank.event.description,NotBlank.description,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [event.description,description]; arguments []; default message [description]]; default message [description is required]] ]
+2021-08-03 07:44:05.398  WARN 6352 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.onlinesweetshopapi.domain.Event> com.onlinesweetshopapi.web.EventController.createEvent(com.onlinesweetshopapi.domain.Event): [Field error in object 'event' on field 'description': rejected value [null]; codes [NotBlank.event.description,NotBlank.description,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [event.description,description]; arguments []; default message [description]]; default message [description is required]] ]
+2021-08-03 07:45:13.180  INFO 16600 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : Starting OnlinesweetshopapiApplication using Java 15.0.2 on DESKTOP-JUUOILO with PID 16600 (C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi\target\classes started by Dell in C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi)
+2021-08-03 07:45:13.190  INFO 16600 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : No active profile set, falling back to default profiles: default
+2021-08-03 07:45:13.357  INFO 16600 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-03 07:45:13.358  INFO 16600 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-03 07:45:16.471  INFO 16600 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-03 07:45:16.812  INFO 16600 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 311 ms. Found 8 JPA repository interfaces.
+2021-08-03 07:45:19.883  INFO 16600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-03 07:45:19.928  INFO 16600 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-03 07:45:19.931  INFO 16600 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-03 07:45:20.317  INFO 16600 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-03 07:45:20.320  INFO 16600 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6959 ms
+2021-08-03 07:45:20.460  INFO 16600 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-03 07:45:21.007  INFO 16600 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-03 07:45:21.031  INFO 16600 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5433/jpademodb'
+2021-08-03 07:45:21.924  INFO 16600 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-03 07:45:22.107  INFO 16600 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-03 07:45:22.890  INFO 16600 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-03 07:45:23.214  INFO 16600 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-08-03 07:45:26.290  INFO 16600 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-03 07:45:26.306  INFO 16600 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-03 07:45:27.900  WARN 16600 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-03 07:45:28.196  INFO 16600 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-03 07:45:28.456  INFO 16600 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-03 07:45:28.862  INFO 16600 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-03 07:45:28.864  INFO 16600 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-08-03 07:45:28.926  INFO 16600 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-08-03 07:45:29.006  INFO 16600 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-08-03 07:45:29.524  INFO 16600 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getSweetsUsingGET_1
+2021-08-03 07:45:29.560  INFO 16600 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : Started OnlinesweetshopapiApplication in 17.453 seconds (JVM running for 19.587)
+2021-08-03 07:45:51.294  INFO 16600 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-03 07:45:51.294  INFO 16600 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-03 07:45:51.298  INFO 16600 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-08-03 07:45:51.709  WARN 16600 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.onlinesweetshopapi.domain.Event> com.onlinesweetshopapi.web.EventController.createEvent(com.onlinesweetshopapi.domain.Event): [Field error in object 'event' on field 'description': rejected value [null]; codes [NotBlank.event.description,NotBlank.description,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [event.description,description]; arguments []; default message [description]]; default message [description is required]] ]
+2021-08-03 07:46:20.483  WARN 16600 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.onlinesweetshopapi.domain.Event> com.onlinesweetshopapi.web.EventController.createEvent(com.onlinesweetshopapi.domain.Event): [Field error in object 'event' on field 'description': rejected value [null]; codes [NotBlank.event.description,NotBlank.description,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [event.description,description]; arguments []; default message [description]]; default message [description is required]] ]
+2021-08-03 07:46:44.643  WARN 16600 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.onlinesweetshopapi.domain.Event> com.onlinesweetshopapi.web.EventController.createEvent(com.onlinesweetshopapi.domain.Event): [Field error in object 'event' on field 'description': rejected value [null]; codes [NotBlank.event.description,NotBlank.description,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [event.description,description]; arguments []; default message [description]]; default message [description is required]] ]
+2021-08-03 07:46:52.092  WARN 16600 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.onlinesweetshopapi.domain.Event> com.onlinesweetshopapi.web.EventController.createEvent(com.onlinesweetshopapi.domain.Event): [Field error in object 'event' on field 'description': rejected value [null]; codes [NotBlank.event.description,NotBlank.description,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [event.description,description]; arguments []; default message [description]]; default message [description is required]] ]
+2021-08-03 07:48:53.607  INFO 16600 --- [http-nio-8080-exec-6] c.o.web.AdminController                  : Event added/updated sucessfully
+2021-08-03 07:49:32.663  INFO 12416 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : Starting OnlinesweetshopapiApplication using Java 15.0.2 on DESKTOP-JUUOILO with PID 12416 (C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi\target\classes started by Dell in C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi)
+2021-08-03 07:49:32.668  INFO 12416 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : No active profile set, falling back to default profiles: default
+2021-08-03 07:49:32.789  INFO 12416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-03 07:49:32.790  INFO 12416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-03 07:49:35.303  INFO 12416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-03 07:49:35.700  INFO 12416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 371 ms. Found 8 JPA repository interfaces.
+2021-08-03 07:49:37.666  INFO 12416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-03 07:49:37.702  INFO 12416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-03 07:49:37.704  INFO 12416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-03 07:49:38.001  INFO 12416 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-03 07:49:38.003  INFO 12416 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5211 ms
+2021-08-03 07:49:38.130  INFO 12416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-03 07:49:38.719  INFO 12416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-03 07:49:38.734  INFO 12416 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5433/jpademodb'
+2021-08-03 07:49:39.144  INFO 12416 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-03 07:49:39.401  INFO 12416 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-03 07:49:39.803  INFO 12416 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-03 07:49:40.129  INFO 12416 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-08-03 07:49:42.579  INFO 12416 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-03 07:49:42.592  INFO 12416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-03 07:49:44.073  WARN 12416 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-03 07:49:44.367  INFO 12416 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-03 07:49:44.639  INFO 12416 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-03 07:49:45.122  INFO 12416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-03 07:49:45.126  INFO 12416 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-08-03 07:49:45.337  INFO 12416 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-08-03 07:49:45.410  INFO 12416 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-08-03 07:49:46.410  INFO 12416 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getSweetsUsingGET_1
+2021-08-03 07:49:46.470  INFO 12416 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : Started OnlinesweetshopapiApplication in 14.582 seconds (JVM running for 15.774)
+2021-08-03 07:49:51.490  INFO 12416 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-03 07:49:51.491  INFO 12416 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-03 07:49:51.493  INFO 12416 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-08-03 07:49:52.079  INFO 12416 --- [http-nio-8080-exec-1] c.o.web.AdminController                  : Event added/updated sucessfully
+2021-08-03 07:51:09.454  WARN 12416 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23505
+2021-08-03 07:51:09.455 ERROR 12416 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: duplicate key value violates unique constraint "uk_953w5w4v0o9tio2o54y3ug9md"
+  Detail: Key (category_identifier)=(MILK18) already exists.
+2021-08-03 07:51:09.470  WARN 12416 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onlinesweetshopapi.exception.AdminIDException: CategoryIdMILK18is already available]
+2021-08-03 07:51:34.075  INFO 12416 --- [http-nio-8080-exec-4] c.o.web.OfferController                  : Offer added/updated sucessfully
+2021-08-03 07:52:00.693  WARN 12416 --- [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onlinesweetshopapi.exception.OrderIdException: Order IdOD-401 is already available]
+2021-08-03 07:52:14.285  WARN 12416 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onlinesweetshopapi.exception.OrderIdException: Order IdOD-402 is already available]
+2021-08-03 07:52:31.643  WARN 12416 --- [http-nio-8080-exec-7] o.s.web.servlet.PageNotFound             : Request method 'POST' not supported
+2021-08-03 07:52:31.646  WARN 12416 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2021-08-03 07:52:37.530  INFO 12416 --- [http-nio-8080-exec-8] c.o.web.OrderController                  : --ORDER--null
+2021-08-03 07:52:37.530 ERROR 12416 --- [http-nio-8080-exec-8] c.o.web.OrderController                  : Order data is not fetched
+2021-08-03 07:52:37.532  WARN 12416 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onlinesweetshopapi.exception.OrderIdException: Order Id: LIST does not exist]
+2021-08-03 07:57:26.930  INFO 15592 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : Starting OnlinesweetshopapiApplication using Java 15.0.2 on DESKTOP-JUUOILO with PID 15592 (C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi\target\classes started by Dell in C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi)
+2021-08-03 07:57:26.935  INFO 15592 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : No active profile set, falling back to default profiles: default
+2021-08-03 07:57:27.176  INFO 15592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-03 07:57:27.176  INFO 15592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-03 07:57:29.770  INFO 15592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-03 07:57:30.170  INFO 15592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 348 ms. Found 8 JPA repository interfaces.
+2021-08-03 07:57:32.058  INFO 15592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-03 07:57:32.085  INFO 15592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-03 07:57:32.087  INFO 15592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-03 07:57:32.345  INFO 15592 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-03 07:57:32.346  INFO 15592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5167 ms
+2021-08-03 07:57:32.431  INFO 15592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-03 07:57:32.826  INFO 15592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-03 07:57:32.840  INFO 15592 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5433/jpademodb'
+2021-08-03 07:57:33.180  INFO 15592 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-03 07:57:33.319  INFO 15592 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-03 07:57:33.658  INFO 15592 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-03 07:57:33.964  INFO 15592 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-08-03 07:57:36.445  INFO 15592 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-03 07:57:36.458  INFO 15592 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-03 07:57:38.581  WARN 15592 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-03 07:57:39.033  INFO 15592 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-03 07:57:39.539  INFO 15592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-03 07:57:40.619  INFO 15592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-03 07:57:40.623  INFO 15592 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-08-03 07:57:40.700  INFO 15592 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-08-03 07:57:40.841  INFO 15592 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-08-03 07:57:41.781  INFO 15592 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getSweetsUsingGET_1
+2021-08-03 07:57:41.868  INFO 15592 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : Started OnlinesweetshopapiApplication in 15.94 seconds (JVM running for 17.146)
+2021-08-03 07:57:56.037  INFO 15592 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-03 07:57:56.038  INFO 15592 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-03 07:57:56.040  INFO 15592 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-08-03 07:58:01.700  INFO 15592 --- [http-nio-8080-exec-2] c.o.web.OfferController                  : Offer added/updated sucessfully
+2021-08-03 07:58:07.838  WARN 15592 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onlinesweetshopapi.exception.SweetIDException: SweetMILK18 cannot be entered.]
+2021-08-03 07:58:28.803  WARN 15592 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onlinesweetshopapi.exception.SweetIDException: SweetMILK18 cannot be entered.]
+2021-08-03 07:58:44.281  WARN 15592 --- [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onlinesweetshopapi.exception.SweetIDException: SweetMILK8 cannot be entered.]
+2021-08-03 07:59:40.758  INFO 15868 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : Starting OnlinesweetshopapiApplication using Java 15.0.2 on DESKTOP-JUUOILO with PID 15868 (C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi\target\classes started by Dell in C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi)
+2021-08-03 07:59:40.766  INFO 15868 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : No active profile set, falling back to default profiles: default
+2021-08-03 07:59:40.942  INFO 15868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-03 07:59:40.942  INFO 15868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-03 07:59:43.746  INFO 15868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-03 07:59:43.990  INFO 15868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 220 ms. Found 8 JPA repository interfaces.
+2021-08-03 07:59:45.804  INFO 15868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-03 07:59:45.845  INFO 15868 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-03 07:59:45.848  INFO 15868 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-03 07:59:46.048  INFO 15868 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-03 07:59:46.049  INFO 15868 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5105 ms
+2021-08-03 07:59:46.129  INFO 15868 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-03 07:59:46.665  INFO 15868 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-03 07:59:46.687  INFO 15868 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5433/jpademodb'
+2021-08-03 07:59:47.360  INFO 15868 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-03 07:59:47.612  INFO 15868 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-03 07:59:48.010  INFO 15868 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-03 07:59:48.458  INFO 15868 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-08-03 07:59:52.011  INFO 15868 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-03 07:59:52.026  INFO 15868 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-03 07:59:54.638  WARN 15868 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-03 07:59:55.121  INFO 15868 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-03 07:59:55.503  INFO 15868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-03 07:59:56.179  INFO 15868 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-03 07:59:56.186  INFO 15868 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-08-03 07:59:56.261  INFO 15868 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-08-03 07:59:56.497  INFO 15868 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-08-03 07:59:57.433  INFO 15868 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getSweetsUsingGET_1
+2021-08-03 07:59:57.561  INFO 15868 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : Started OnlinesweetshopapiApplication in 17.868 seconds (JVM running for 19.463)
+2021-08-03 08:00:08.426  INFO 15868 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-03 08:00:08.427  INFO 15868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-03 08:00:08.430  INFO 15868 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-08-03 08:02:26.866  INFO 16744 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : Starting OnlinesweetshopapiApplication using Java 15.0.2 on DESKTOP-JUUOILO with PID 16744 (C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi\target\classes started by Dell in C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi)
+2021-08-03 08:02:26.876  INFO 16744 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : No active profile set, falling back to default profiles: default
+2021-08-03 08:02:27.029  INFO 16744 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-03 08:02:27.031  INFO 16744 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-03 08:02:29.787  INFO 16744 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-03 08:02:30.060  INFO 16744 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 233 ms. Found 8 JPA repository interfaces.
+2021-08-03 08:02:31.721  INFO 16744 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-03 08:02:31.754  INFO 16744 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-03 08:02:31.756  INFO 16744 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-03 08:02:31.965  INFO 16744 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-03 08:02:31.966  INFO 16744 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4933 ms
+2021-08-03 08:02:32.046  INFO 16744 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-03 08:02:32.444  INFO 16744 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-03 08:02:32.465  INFO 16744 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5433/jpademodb'
+2021-08-03 08:02:33.017  INFO 16744 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-03 08:02:33.232  INFO 16744 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-03 08:02:33.693  INFO 16744 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-03 08:02:33.954  INFO 16744 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-08-03 08:02:37.845  INFO 16744 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-03 08:02:37.866  INFO 16744 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-03 08:02:41.482  WARN 16744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-03 08:02:41.796  INFO 16744 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-03 08:02:42.062  INFO 16744 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-03 08:02:42.546  INFO 16744 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-03 08:02:42.551  INFO 16744 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-08-03 08:02:42.626  INFO 16744 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-08-03 08:02:42.712  INFO 16744 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-08-03 08:02:43.269  INFO 16744 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getSweetsUsingGET_1
+2021-08-03 08:02:43.308  INFO 16744 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : Started OnlinesweetshopapiApplication in 17.685 seconds (JVM running for 19.359)
+2021-08-03 08:03:00.504  INFO 16744 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-03 08:03:00.504  INFO 16744 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-03 08:03:00.507  INFO 16744 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-08-03 08:05:40.812  INFO 15908 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : Starting OnlinesweetshopapiApplication using Java 15.0.2 on DESKTOP-JUUOILO with PID 15908 (C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi\target\classes started by Dell in C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi)
+2021-08-03 08:05:40.817  INFO 15908 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : No active profile set, falling back to default profiles: default
+2021-08-03 08:05:41.193  INFO 15908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-03 08:05:41.194  INFO 15908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-03 08:05:43.509  INFO 15908 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-03 08:05:43.716  INFO 15908 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 183 ms. Found 8 JPA repository interfaces.
+2021-08-03 08:05:45.201  INFO 15908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-03 08:05:45.226  INFO 15908 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-03 08:05:45.229  INFO 15908 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-03 08:05:45.402  INFO 15908 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-03 08:05:45.403  INFO 15908 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4207 ms
+2021-08-03 08:05:45.470  INFO 15908 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-03 08:05:45.898  INFO 15908 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-03 08:05:45.911  INFO 15908 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5433/jpademodb'
+2021-08-03 08:05:46.219  INFO 15908 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-03 08:05:46.364  INFO 15908 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-03 08:05:46.736  INFO 15908 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-03 08:05:47.083  INFO 15908 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-08-03 08:05:49.514  INFO 15908 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-03 08:05:49.524  INFO 15908 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-03 08:05:51.453  WARN 15908 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-03 08:05:51.798  INFO 15908 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-03 08:05:52.035  INFO 15908 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-03 08:05:52.786  INFO 15908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-03 08:05:52.792  INFO 15908 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-08-03 08:05:52.877  INFO 15908 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-08-03 08:05:53.261  INFO 15908 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-08-03 08:05:54.436  INFO 15908 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getSweetsUsingGET_1
+2021-08-03 08:05:54.513  INFO 15908 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : Started OnlinesweetshopapiApplication in 14.701 seconds (JVM running for 15.904)
+2021-08-03 08:05:57.885  INFO 15908 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-03 08:05:57.886  INFO 15908 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-03 08:05:57.887  INFO 15908 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-03 08:05:58.300  WARN 15908 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23505
+2021-08-03 08:05:58.301 ERROR 15908 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: duplicate key value violates unique constraint "uk_mbyjhbsqkm90cqkc28vs9i4ef"
+  Detail: Key (offer_id)=(DIWA56) already exists.
+2021-08-03 08:05:58.385  WARN 15908 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onlinesweetshopapi.exception.OfferIdException: Offer IdDIWA56 is already available]
+2021-08-03 08:07:06.541  WARN 15908 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onlinesweetshopapi.exception.SweetIDException: SweetMILK8 cannot be entered.]
+2021-08-03 08:09:58.335 ERROR 15908 --- [http-nio-8080-exec-3] c.o.web.OfferController                  : Error in fetching offer
+2021-08-03 08:09:58.346  WARN 15908 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onlinesweetshopapi.exception.AdminIDException: AdminId DIWA56 does not exist]
+2021-08-03 08:13:25.772  INFO 15908 --- [http-nio-8080-exec-5] c.o.web.OfferController                  : Offer added/updated sucessfully
+2021-08-03 08:13:55.372  WARN 15908 --- [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23502
+2021-08-03 08:13:55.373 ERROR 15908 --- [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: null value in column "category_id" of relation "sweet" violates not-null constraint
+  Detail: Failing row contains (248, Milk18, 60, OFF23, 100, 50, MILK8, Milk8, null, 247).
+2021-08-03 08:13:55.377  WARN 15908 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onlinesweetshopapi.exception.SweetIDException: SweetMILK8 cannot be entered.]
+2021-08-03 08:14:57.985  INFO 15908 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-03 08:14:57.997  INFO 15908 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-03 08:14:58.015  INFO 15908 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-03 08:14:59.523  INFO 15908 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : Starting OnlinesweetshopapiApplication using Java 15.0.2 on DESKTOP-JUUOILO with PID 15908 (C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi\target\classes started by Dell in C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi)
+2021-08-03 08:14:59.523  INFO 15908 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : No active profile set, falling back to default profiles: default
+2021-08-03 08:15:02.522  INFO 15908 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-03 08:15:02.650  INFO 15908 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126 ms. Found 8 JPA repository interfaces.
+2021-08-03 08:15:02.954  INFO 15908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-03 08:15:02.963  INFO 15908 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-03 08:15:02.964  INFO 15908 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-03 08:15:03.101  INFO 15908 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-03 08:15:03.102  INFO 15908 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3561 ms
+2021-08-03 08:15:03.127  INFO 15908 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-08-03 08:15:03.218  INFO 15908 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-08-03 08:15:03.218  INFO 15908 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5433/jpademodb'
+2021-08-03 08:15:03.284  INFO 15908 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-03 08:15:03.315  INFO 15908 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-08-03 08:15:05.403  INFO 15908 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-03 08:15:05.404  INFO 15908 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-03 08:15:06.317  WARN 15908 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-03 08:15:06.402  INFO 15908 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-03 08:15:06.490  INFO 15908 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-03 08:15:06.639  INFO 15908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-03 08:15:06.641  INFO 15908 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-08-03 08:15:06.644  INFO 15908 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-08-03 08:15:06.674  INFO 15908 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-08-03 08:15:06.832  INFO 15908 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getSweetsUsingGET_1
+2021-08-03 08:15:06.838  INFO 15908 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : Started OnlinesweetshopapiApplication in 8.655 seconds (JVM running for 568.23)
+2021-08-03 08:15:06.842  INFO 15908 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-03 08:15:35.207  INFO 556 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : Starting OnlinesweetshopapiApplication using Java 15.0.2 on DESKTOP-JUUOILO with PID 556 (C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi\target\classes started by Dell in C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi)
+2021-08-03 08:15:35.219  INFO 556 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : No active profile set, falling back to default profiles: default
+2021-08-03 08:15:35.420  INFO 556 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-03 08:15:35.421  INFO 556 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-03 08:15:37.586  INFO 556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-03 08:15:37.810  INFO 556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 197 ms. Found 8 JPA repository interfaces.
+2021-08-03 08:15:39.376  INFO 556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-03 08:15:39.400  INFO 556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-03 08:15:39.401  INFO 556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-03 08:15:39.599  INFO 556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-03 08:15:39.600  INFO 556 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4167 ms
+2021-08-03 08:15:39.670  INFO 556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-03 08:15:39.996  INFO 556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-03 08:15:40.006  INFO 556 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5433/jpademodb'
+2021-08-03 08:15:40.363  INFO 556 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-03 08:15:40.535  INFO 556 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-03 08:15:40.962  INFO 556 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-03 08:15:41.214  INFO 556 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-08-03 08:15:43.537  INFO 556 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-03 08:15:43.549  INFO 556 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-03 08:15:44.912  WARN 556 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-03 08:15:45.180  INFO 556 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-03 08:15:45.392  INFO 556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-03 08:15:45.730  INFO 556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-03 08:15:45.732  INFO 556 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-08-03 08:15:45.790  INFO 556 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-08-03 08:15:45.869  INFO 556 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-08-03 08:15:46.274  INFO 556 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getSweetsUsingGET_1
+2021-08-03 08:15:46.314  INFO 556 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : Started OnlinesweetshopapiApplication in 12.32 seconds (JVM running for 13.7)
+2021-08-03 08:17:46.201  INFO 556 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-03 08:17:46.202  INFO 556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-03 08:17:46.206  INFO 556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-08-03 08:17:46.935  WARN 556 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23502
+2021-08-03 08:17:46.935 ERROR 556 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: null value in column "category_id" of relation "sweet" violates not-null constraint
+  Detail: Failing row contains (249, Milk18, 60, OFF23, 100, 50, MILK8, Milk8, null, 247).
+2021-08-03 08:17:47.004  WARN 556 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onlinesweetshopapi.exception.SweetIDException: SweetMILK8 cannot be entered.]
+2021-08-03 08:18:35.035  WARN 556 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23505
+2021-08-03 08:18:35.036 ERROR 556 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: duplicate key value violates unique constraint "uk_953w5w4v0o9tio2o54y3ug9md"
+  Detail: Key (category_identifier)=(MILK18) already exists.
+2021-08-03 08:18:35.044  WARN 556 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onlinesweetshopapi.exception.AdminIDException: CategoryIdMILK18is already available]
+2021-08-03 08:19:11.259 ERROR 556 --- [http-nio-8080-exec-3] c.o.web.AdminController                  : Error in adding category
+2021-08-03 08:21:25.069  WARN 556 --- [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23502
+2021-08-03 08:21:25.070 ERROR 556 --- [http-nio-8080-exec-6] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: null value in column "category_id" of relation "sweet" violates not-null constraint
+  Detail: Failing row contains (252, Choc15, 60, OFF23, 100, 50, ST15, Chocolates, null, 247).
+2021-08-03 08:21:25.074  WARN 556 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onlinesweetshopapi.exception.SweetIDException: SweetST15 cannot be entered.]
+2021-08-03 08:21:48.822  INFO 556 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-03 08:21:48.828  INFO 556 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-03 08:21:48.915  INFO 556 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-03 08:21:49.526  INFO 556 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : Starting OnlinesweetshopapiApplication using Java 15.0.2 on DESKTOP-JUUOILO with PID 556 (C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi\target\classes started by Dell in C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi)
+2021-08-03 08:21:49.531  INFO 556 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : No active profile set, falling back to default profiles: default
+2021-08-03 08:21:51.979  INFO 556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-03 08:21:52.192  INFO 556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 212 ms. Found 8 JPA repository interfaces.
+2021-08-03 08:21:52.482  INFO 556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-03 08:21:52.485  INFO 556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-03 08:21:52.485  INFO 556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-03 08:21:52.557  INFO 556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-03 08:21:52.558  INFO 556 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3006 ms
+2021-08-03 08:21:52.581  INFO 556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-08-03 08:21:52.701  INFO 556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-08-03 08:21:52.703  INFO 556 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5433/jpademodb'
+2021-08-03 08:21:52.791  INFO 556 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-03 08:21:52.837  INFO 556 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-08-03 08:21:55.135  INFO 556 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-03 08:21:55.136  INFO 556 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-03 08:21:55.730  WARN 556 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-03 08:21:55.805  INFO 556 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-08-03 08:21:55.858  INFO 556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-03 08:21:55.952  INFO 556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-03 08:21:55.953  INFO 556 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-08-03 08:21:55.954  INFO 556 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-08-03 08:21:55.972  INFO 556 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-08-03 08:21:56.160  INFO 556 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getSweetsUsingGET_1
+2021-08-03 08:21:56.178  INFO 556 --- [restartedMain] c.o.OnlinesweetshopapiApplication        : Started OnlinesweetshopapiApplication in 7.033 seconds (JVM running for 383.564)
+2021-08-03 08:21:56.185  INFO 556 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-03 08:22:06.296  INFO 556 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-03 08:22:06.297  INFO 556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-03 08:22:06.300  INFO 556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-03 08:22:06.374  INFO 556 --- [http-nio-8080-exec-1] c.o.web.AdminController                  : Sweet is saved
+2021-08-03 08:23:22.135  WARN 556 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23502
+2021-08-03 08:23:22.136 ERROR 556 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: null value in column "customer_id" of relation "orders" violates not-null constraint
+  Detail: Failing row contains (254, JAT16, Alwar, 2021-08-03 08:23:22.118, sweets, OD402, 60, Order Placed, cash, ST15, null, 255).
+2021-08-03 08:23:22.143  WARN 556 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onlinesweetshopapi.exception.OrderIdException: Order IdOD402 is already available]
+2021-08-03 08:23:45.243  WARN 556 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23502
+2021-08-03 08:23:45.244 ERROR 556 --- [http-nio-8080-exec-4] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: null value in column "customer_id" of relation "orders" violates not-null constraint
+  Detail: Failing row contains (256, JAT16, Alwar, 2021-08-03 08:23:45.232, sweets, OD402, 60, null, cash, ST15, null, 257).
+2021-08-03 08:23:45.246  WARN 556 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onlinesweetshopapi.exception.OrderIdException: Order IdOD402 is already available]
+2021-08-03 08:24:12.700  INFO 556 --- [http-nio-8080-exec-5] c.o.web.CustomerController               : Customer added/updated sucessfully
+2021-08-03 08:24:18.691  INFO 556 --- [http-nio-8080-exec-6] c.o.web.OrderController                  : Order created/updated
+2021-08-03 08:25:29.746 ERROR 556 --- [http-nio-8080-exec-8] c.o.web.AdminController                  : Error in fetching category
+2021-08-03 08:25:29.750  WARN 556 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.onlinesweetshopapi.exception.SweetIDException: Category ST15 does not exist]
+2021-08-03 08:25:44.518  INFO 556 --- [http-nio-8080-exec-9] c.o.web.AdminController                  : Catagories List is shown
+2021-08-03 08:25:59.486  INFO 556 --- [http-nio-8080-exec-10] c.o.web.AdminController                  : Catagories is fetch
+2021-08-03 08:26:16.098  INFO 556 --- [http-nio-8080-exec-1] c.o.web.AdminController                  : Event added/updated sucessfully
+2021-08-03 08:26:37.581  WARN 556 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'isLoggedIn' for method parameter type int is not present]
+2021-08-03 08:27:18.800  WARN 556 --- [http-nio-8080-exec-3] o.s.web.servlet.PageNotFound             : Request method 'PATCH' not supported
+2021-08-03 08:27:18.804  WARN 556 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PATCH' not supported]
+2021-08-03 08:45:15.081  INFO 9760 --- [main] c.o.web.OrderControllerTest              : Starting OrderControllerTest using Java 15.0.2 on DESKTOP-JUUOILO with PID 9760 (started by Dell in C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi)
+2021-08-03 08:45:15.102  INFO 9760 --- [main] c.o.web.OrderControllerTest              : No active profile set, falling back to default profiles: default
+2021-08-03 08:45:21.169  INFO 9760 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-08-03 08:45:21.170  INFO 9760 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-08-03 08:45:21.174  INFO 9760 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2021-08-03 08:45:21.283  INFO 9760 --- [main] c.o.web.OrderControllerTest              : Started OrderControllerTest in 7.73 seconds (JVM running for 12.62)
+2021-08-03 08:45:22.080  INFO 9760 --- [main] c.o.web.OrderController                  : --ORDER--com.onlinesweetshopapi.domain.Order@34fcd292
+2021-08-03 08:45:22.081  INFO 9760 --- [main] c.o.web.OrderController                  : Order data is fetched
+2021-08-03 08:59:46.793  INFO 17096 --- [main] c.o.web.SweetsControllerTest             : Starting SweetsControllerTest using Java 15.0.2 on DESKTOP-JUUOILO with PID 17096 (started by Dell in C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi)
+2021-08-03 08:59:46.798  INFO 17096 --- [main] c.o.web.SweetsControllerTest             : No active profile set, falling back to default profiles: default
+2021-08-03 08:59:49.979  WARN 17096 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController': Unsatisfied dependency expressed through field 'orderService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.onlinesweetshopapi.service.OrderService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-08-03 08:59:49.993  INFO 17096 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-03 08:59:50.029 ERROR 17096 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field orderService in com.onlinesweetshopapi.web.OrderController required a bean of type 'com.onlinesweetshopapi.service.OrderService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.onlinesweetshopapi.service.OrderService' in your configuration.
+
+2021-08-03 08:59:50.040 ERROR 17096 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@158a3b2e] to prepare test instance [com.onlinesweetshopapi.web.SweetsControllerTest@7573b9ee]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.9.jar:5.3.9]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.9.jar:5.3.9]
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.postProcessFields(MockitoTestExecutionListener.java:110) ~[spring-boot-test-2.5.3.jar:2.5.3]
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.injectFields(MockitoTestExecutionListener.java:94) ~[spring-boot-test-2.5.3.jar:2.5.3]
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.prepareTestInstance(MockitoTestExecutionListener.java:61) ~[spring-boot-test-2.5.3.jar:2.5.3]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244) ~[spring-test-5.3.9.jar:5.3.9]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138) ~[spring-test-5.3.9.jar:5.3.9]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:350) ~[junit-jupiter-engine-5.7.2.jar:5.7.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:355) ~[junit-jupiter-engine-5.7.2.jar:5.7.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$7(ClassBasedTestDescriptor.java:350) ~[junit-jupiter-engine-5.7.2.jar:5.7.2]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:349) ~[junit-jupiter-engine-5.7.2.jar:5.7.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$4(ClassBasedTestDescriptor.java:270) ~[junit-jupiter-engine-5.7.2.jar:5.7.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:269) ~[junit-jupiter-engine-5.7.2.jar:5.7.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:259) ~[junit-jupiter-engine-5.7.2.jar:5.7.2]
+	at java.base/java.util.Optional.orElseGet(Optional.java:362) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:258) ~[junit-jupiter-engine-5.7.2.jar:5.7.2]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.7.2.jar:5.7.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:101) ~[junit-jupiter-engine-5.7.2.jar:5.7.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:100) ~[junit-jupiter-engine-5.7.2.jar:5.7.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:65) ~[junit-jupiter-engine-5.7.2.jar:5.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:111) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:111) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:79) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51) ~[junit-platform-engine-1.7.2.jar:1.7.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108) ~[junit-platform-launcher-1.7.2.jar:1.7.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88) ~[junit-platform-launcher-1.7.2.jar:1.7.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54) ~[junit-platform-launcher-1.7.2.jar:1.7.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67) ~[junit-platform-launcher-1.7.2.jar:1.7.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52) ~[junit-platform-launcher-1.7.2.jar:1.7.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96) ~[junit-platform-launcher-1.7.2.jar:1.7.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:84) ~[junit-platform-launcher-1.7.2.jar:1.7.2]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) ~[.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) ~[.cp/:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController': Unsatisfied dependency expressed through field 'orderService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.onlinesweetshopapi.service.OrderService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.3.jar:2.5.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.3.jar:2.5.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.3.jar:2.5.3]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:123) ~[spring-boot-test-2.5.3.jar:2.5.3]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.9.jar:5.3.9]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.9.jar:5.3.9]
+	... 70 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.onlinesweetshopapi.service.OrderService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1790) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1346) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.9.jar:5.3.9]
+	... 89 common frames omitted
+
+2021-08-03 09:01:28.593  INFO 12104 --- [main] c.o.web.SweetsControllerTest             : Starting SweetsControllerTest using Java 15.0.2 on DESKTOP-JUUOILO with PID 12104 (started by Dell in C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi)
+2021-08-03 09:01:28.599  INFO 12104 --- [main] c.o.web.SweetsControllerTest             : No active profile set, falling back to default profiles: default
+2021-08-03 09:01:34.760  INFO 12104 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-08-03 09:01:34.761  INFO 12104 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-08-03 09:01:34.766  INFO 12104 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+2021-08-03 09:01:34.940  INFO 12104 --- [main] c.o.web.SweetsControllerTest             : Started SweetsControllerTest in 7.371 seconds (JVM running for 10.761)
+2021-08-03 09:02:27.896  INFO 11200 --- [main] c.o.web.SweetsControllerTest             : Starting SweetsControllerTest using Java 15.0.2 on DESKTOP-JUUOILO with PID 11200 (started by Dell in C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi)
+2021-08-03 09:02:27.902  INFO 11200 --- [main] c.o.web.SweetsControllerTest             : No active profile set, falling back to default profiles: default
+2021-08-03 09:02:33.990  INFO 11200 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-08-03 09:02:33.991  INFO 11200 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-08-03 09:02:33.996  INFO 11200 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2021-08-03 09:02:34.095  INFO 11200 --- [main] c.o.web.SweetsControllerTest             : Started SweetsControllerTest in 7.258 seconds (JVM running for 11.695)
+2021-08-03 09:02:57.439  INFO 12148 --- [main] c.o.web.SweetsControllerTest             : Starting SweetsControllerTest using Java 15.0.2 on DESKTOP-JUUOILO with PID 12148 (started by Dell in C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi)
+2021-08-03 09:02:57.447  INFO 12148 --- [main] c.o.web.SweetsControllerTest             : No active profile set, falling back to default profiles: default
+2021-08-03 09:03:02.902  INFO 12148 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-08-03 09:03:02.903  INFO 12148 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-08-03 09:03:02.908  INFO 12148 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 5 ms
+2021-08-03 09:03:03.030  INFO 12148 --- [main] c.o.web.SweetsControllerTest             : Started SweetsControllerTest in 6.713 seconds (JVM running for 10.464)
+2021-08-03 09:05:12.836  INFO 8828 --- [main] c.o.web.SweetsControllerTest             : Starting SweetsControllerTest using Java 15.0.2 on DESKTOP-JUUOILO with PID 8828 (started by Dell in C:\Users\Dell\Documents\Online Sweet Shop\onlinesweetshopapi)
+2021-08-03 09:05:12.843  INFO 8828 --- [main] c.o.web.SweetsControllerTest             : No active profile set, falling back to default profiles: default
+2021-08-03 09:05:17.263  INFO 8828 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-08-03 09:05:17.264  INFO 8828 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-08-03 09:05:17.267  INFO 8828 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2021-08-03 09:05:17.352  INFO 8828 --- [main] c.o.web.SweetsControllerTest             : Started SweetsControllerTest in 5.493 seconds (JVM running for 8.528)

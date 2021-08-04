@@ -7,5 +7,12 @@ import com.onlinesweetshopapi.domain.Order;
 
 @Repository
 public interface OrderRepository extends JpaRepository<Order, Long> {
+	
+	/**
+	 * find order by order id
+	 * 
+	 * @param orderId
+	 * @return order
+	 */
 	public Order findByOrderId(String orderId);
 }

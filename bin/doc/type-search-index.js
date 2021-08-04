@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"com.onlinesweetshopapi.domain","l":"Admin"},{"l":"All Classes","u":"allclasses-index.html"}];updateSearchResults();

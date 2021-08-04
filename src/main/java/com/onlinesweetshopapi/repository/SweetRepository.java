@@ -11,5 +11,11 @@ import com.onlinesweetshopapi.domain.Sweet;
 @Repository
 public interface SweetRepository extends JpaRepository<Sweet, Long> {
 		
+	/**
+	 * find sweet by sweet id
+	 * 
+	 * @param sweetId
+	 * @return sweet
+	 */
  	Sweet findBySweetIdentifier(String sweetIdentifier);
 }
